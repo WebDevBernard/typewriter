@@ -4,10 +4,10 @@ for (const char of sentence) {
   setTimeout(() => {
     process.stdout.write(char);
   }, iterations += 50);
-  
+
 }
 setTimeout(() => {
   process.stdout.write('\n');
-}, iterations += 50);
+}, iterations);
 
 
